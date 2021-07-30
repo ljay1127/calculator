@@ -1,0 +1,53 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(rgb(121, 117, 117), green, blue);
+}
+
+.width-12 {
+    width: 15%;
+}
+
+.margin-5 {
+    margin: 5px;
+}
+
+button {
+    background-color: rgb(0, 255, 0);
+    border-radius: 10px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: rgb(166, 255, 166);
+    color: rgb(250, 250, 250);
+}
+
+button:active {
+    background-color: rgb(0, 255, 0);
+    color: rgb(250, 250, 250);
+}
+
+
+input[type=text] {
+    font-size: 14px;
+    width: 90%;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: rgb(99, 98, 98);
+}
+
+input[type=text]:focus {
+    outline: none;
+}
